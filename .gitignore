@@ -1,0 +1,11 @@
+bam/
+bam_test/
+filtered_bam/
+filtered_bam_test/
+qc/
+ref_test/
+vcf/
+vcf_test/
+scripts/Mutation_Calling_files
+raw/*
+!raw/.gitkeep
