@@ -31,11 +31,11 @@ if(Sys.info()["nodename"]%in%c("sce-bio-c04553", "sce-bio-c06973", "SCE-BIO-C074
   root<-"/Users/s2221673/Ecoli_MA"
 }
 
-#rmarkdown::render(file.path(root, "scripts/Mutation_Calling.Rmd"))
+# rmarkdown::render(file.path(root, "scripts/Mutation_Calling.Rmd"))
 map_reads<-FALSE
 call_var<-FALSE
-process_vcf<-FALSE
-sim_mutations<-TRUE
+process_vcf<-TRUE
+sim_mutations<-FALSE
 save<-FALSE
 ```
 
